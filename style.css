@@ -17,7 +17,6 @@ body {
 
 
 .conteudo-principal {
-    font-family: "Overpass", sans-serif;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -85,7 +84,6 @@ body {
     text-align: center;
 }
 .aba-conteudo-titulo-secundario{
-    font-family: "Overpass", sans-serif;
     text-align: center;
     color: var(--verde);
     text-transform: uppercase;

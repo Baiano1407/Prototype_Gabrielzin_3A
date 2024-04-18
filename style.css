@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
     --cor-de-fundo: #1E1E1E;
-    --azul: #030c83;
+    --verde: #6FFF57;
     --branco: #FFFFFF;
-    --botao-ativo: #3cf;
-    --botao-inativo: rgb(7, 100, 187);
-    --texto-fundo: rgb(7, 100, 187);
+    --botao-ativo: #3A375E;
+    --botao-inativo: rgba(58, 55, 94, 0.5);
+    --texto-fundo: rgba(58, 55, 94, 0.3);
 }
 
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco);
-    font-family: "Madimi One", sans-serif;
+    font-family: "Teko", sans-serif;
 }
 
 
@@ -33,18 +33,18 @@ body {
 }
 
 .titulo-principal span {
-    color: var(--azul);
+    color: var(--verde);
 }
 
 
 .botao {
-    font-family: "Madimi One", sans-serif;
+    font-family: "Teko", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
     justify-content: center;
     padding: 1em;
-    font-size: 20px;
+    font-size: 18px;
     align-items: center;
     width: 100%;
     border-bottom: 4px solid var(--botao-ativo);
@@ -61,23 +61,9 @@ body {
     display: block;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
-    border-bottom: 4px solid var(--azul);
-}
-
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
-
-    .botao:first-child {
-        border-radius: 40px 0 0 0;
-    }
-
-    .botao:last-child {
-        border-radius: 0 40px 0 0;
-    }
+    border-bottom: 4px solid var(--verde);
 }
 
 .abas-textos{
@@ -125,4 +111,18 @@ body {
     font-size: 20px;
     margin: 0;
 
+}
+
+@media screen and (min-width: 768px) {
+    .botoes {
+        display: flex;
+    }
+
+    .botao:first-child {
+        border-radius: 40px 0 0 0;
+    }
+
+    .botao:last-child {
+        border-radius: 0 40px 0 0;
+    }
 }

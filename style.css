@@ -92,25 +92,29 @@ body {
 }
 
 .contador{
+    font-family: "Overpass", sans-serif;
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 .contador-digito{
+    font-family: "Overpass", sans-serif;
     padding: 0 16px;
     text-align: center;
-    min-width: 100px;
+    min-width: 80px;
 }
 
 .contador-digito-numero{
-    font-size: 80px;
+    font-family: "Overpass", sans-serif;
+    font-size: 70px;
     margin: 0;
 
 }
 
 .contador-digito-texto{
+    font-family: "Overpass", sans-serif;
     color: var(--verde);
-    font-size: 20px;
+    font-size: 15px;
     margin: 0;
 
 }
